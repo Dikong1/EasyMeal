@@ -1,0 +1,72 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+a, a:link, a:visited, a:hover  {
+    text-decoration: none;
+    color: #E4F1FE;
+}
+
+nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+body {
+    background: #FFCB3C;
+    color: #E4F1FE;
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.container {
+    margin: 5px 10px;
+}
+
+.header-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #424242;
+    border-radius: 53px;
+    height: 93px;
+}
+
+.menu ul {
+    text-align: justify;
+    margin-left: 80px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.profile {
+    margin: 6px 12px;
+}
