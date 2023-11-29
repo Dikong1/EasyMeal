@@ -35,11 +35,6 @@ body {
     font-family: Raleway;
 }
 
-.header {
-    margin: 0;
-    height: 100vh;
-}
-
 .container {
     margin: 5px 10px;
 }
