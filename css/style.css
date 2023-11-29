@@ -29,14 +29,15 @@ ul, ul li {
 }
 
 body {
+    margin: 0;
     background: #FFCB3C;
     color: #E4F1FE;
     font-family: Raleway;
-    font-size: 35px;
-    font-weight: 400;
-    line-height: 41px;
-    letter-spacing: 0em;
-    text-align: left;
+}
+
+.header {
+    margin: 0;
+    height: 100vh;
 }
 
 .container {
@@ -54,19 +55,85 @@ body {
     align-items: center;
     background: #424242;
     border-radius: 53px;
-    height: 93px;
+    margin-bottom: 10px;
+    
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 41px;
 }
 
 .menu ul {
-    text-align: justify;
     margin-left: 80px;
 }
 
 .menu ul li {
     display: inline-block;
-    margin-right: 80px;
+    margin-right: 40px;
 }
 
-.profile {
-    margin: 6px 12px;
+.menu ul li a {
+    transition: color 0.1s linear;
+}
+
+.menu ul li a:hover {
+    color: #000;
+}
+
+.profile_photo {
+    margin: 0 12px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.welcome_message {    
+    margin-top: 130px;
+    margin-left: 130px;
+}
+
+.welcome_message p {
+    margin-left: 80px;
+}
+
+.welcome h1 {
+    font-family: Poller One;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 95px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.welcome p {
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.welcome_button {
+    display: inline-block;
+    padding: 25px 50px;
+    margin-left: 130px;
+    margin-top: 130px;
+    background-color: #EE860CF2;
+    border-radius: 100px;
+
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 35px;
+
+    transition: background-color 0.2s linear;
+}
+
+.welcome_button:hover {
+    background-color: #99590ff2;
+}
+
+.welcome_img {
+    max-height: 620px;
+    margin-top: -10px;
 }
