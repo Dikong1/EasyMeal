@@ -1,0 +1,26 @@
+body {
+    height: 2322px;
+    background: linear-gradient(rgb(255, 242, 121) 0%, rgba(255, 242, 121, 0.83) 30.33%, rgb(255, 255, 255) 59.99%, rgb(255, 244, 144) 100%, rgba(255, 241, 116, 0.83) 100%);
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 41px;
+    width: 234px;
+    background: rgb(66, 66, 66);
+    border-radius: 53px;
+}   
+
+.image_prof {
+    height: 85px;
+}
